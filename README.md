@@ -1,5 +1,5 @@
 # dme2sms-readserial
-Liest Daten eines Swissphone-Pagers auf der seriellen Schnittstelle aus und übertragt sie per HTTP-POST an einen Server
+Liest Daten eines Swissphone-Pagers auf der seriellen Schnittstelle aus und überträgt sie per HTTP-POST an einen Server
 
 ## Vorbereitungen
 1. Der Dienst wurde nur für Linux (Ubuntu 18.04.3 LTS) getestet.
