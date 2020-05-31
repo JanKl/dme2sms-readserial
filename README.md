@@ -13,3 +13,4 @@ Liest Daten eines Swissphone-Pagers auf der seriellen Schnittstelle aus und übe
 1. Die Installationsdateien mit dem Befehl `chmod +x install.sh uninstall.sh` ausführbar machen.
 1. Die Installation durchführen: `sudo ./install.sh`.
 1. Der Dienst sollte jetzt laufen. Das kann mittels `sudo systemctl status dme2sms.service` überprüft werden.
+1. Das Logging kann über `journalctl -n 5 -u dme2sms -f` überwacht werden.
