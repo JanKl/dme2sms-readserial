@@ -13,6 +13,7 @@ rm /etc/dme2sms-readserial/dme2sms-readserial.py
 rmdir /etc/dme2sms-readserial
 
 deluser dme2smsuser
+groupdel dme2smsuser
 
 rm /etc/rsyslog.d/20-dme2sms.conf
 systemctl restart rsyslog
